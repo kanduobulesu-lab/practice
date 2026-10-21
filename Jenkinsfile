@@ -9,7 +9,7 @@ pipeline {
     stage('install dependencies') {
         steps {
             echo "installing node.js dependencies..."
-            bat 'npm install'
+            bat 'dir'
         }
     }
     stage ('build') {
