@@ -1,5 +1,5 @@
  name:demo devobs build and test
-"on":
+ on:
   push:
     branches:
       - 'feature/*'
