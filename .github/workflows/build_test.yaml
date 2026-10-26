@@ -3,7 +3,7 @@ name: Demo Devobs Build and Test
 on:
   push:
     branches:
-      - 'feature/*'
+      - 'main*'
   workflow_dispatch:
 
 jobs:
