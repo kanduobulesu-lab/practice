@@ -1,12 +1,12 @@
 name:demo devobs build and test
 on:
-  push:
+push:
     branches:
       - 'feature/*'
-      workflow_dispatch:
+workflow_dispatch:
 
-      jobs:
-      build:
+jobs:
+build:
       runs-on: ubuntu-latest
       env:
       actions_step_debug: 'true'
