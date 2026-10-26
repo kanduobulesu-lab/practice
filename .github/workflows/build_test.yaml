@@ -1,4 +1,4 @@
-name:demo devobs build and test
+ name:demo devobs build and test
 "on":
   push:
     branches:
